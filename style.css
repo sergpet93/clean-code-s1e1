@@ -18,8 +18,11 @@
 }
 
 @media (max-width:768px) {
-  .content-header { text-align: center;
-}
+
+  .content-header { 
+    text-align: center;
+  }
+
 }
 .content-main {
   display: block;
@@ -35,14 +38,14 @@
   display: flex;
 }
 #link-incomplete-tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .tasks-items, .section-title {
-  list-style:none;
+  list-style: none;
 }
 input,.button{
-  outline:none;
+  outline: none;
 }
 .button {
   background: none;
@@ -134,14 +137,14 @@ input#new-task {
 
 /* Edit Task */
 .link-task .tasks-items input[type=text] {
-  display:none;
+  display: none;
 }
 
 .link-task .tasks-items.editMode input[type=text] {
-  display:inline-block;
-  width:224px;
+  display: inline-block;
+  width: 224px;
 }
 
 .link-task .tasks-items.editMode label {
-  display:none;
+  display: none;
 }
