@@ -41,10 +41,12 @@
   margin: 0;
   padding: 0px;
 }
-.tasks-items, .section-title {
+.tasks-items,
+.section-title {
   list-style: none;
 }
-input,.button{
+input,
+.button{
   outline: none;
 }
 .button {
@@ -117,7 +119,7 @@ input#new-task {
   font-size: 18px;
   width: 226px;
 }
-.tasks-items >    input[type="text"] {
+.tasks-items > input[type="text"] {
   width: 226px;
 }
 .button-delete .button-img {
